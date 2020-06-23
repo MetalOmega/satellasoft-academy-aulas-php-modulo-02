@@ -1,0 +1,14 @@
+{
+    "name": "metalomega/aula04",
+    "description": "Projeto sobre PHP",
+    "authors": [
+        {
+            "name": "Metal Omega",
+            "email": "metalomega@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~6.1",
+        "monolog/monolog": "1.0.*"
+    }
+}
