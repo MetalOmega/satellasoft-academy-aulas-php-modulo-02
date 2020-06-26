@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin     : 0 auto;
+    padding    : 0;
+    border     : 0;
+    box-sizing : border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(0, 18, 117);
+}
+
+.max-width {
+    max-width: 600px;
+    width    : 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+label {
+    font-weight: bold;
+    display    : block;
+    margin     : 10px 0 5px 0;
+    color      : rgb(0, 18, 117);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width  : 100%;
+    border : 1px solid #eee;
+    outline: none;
+    padding: 10px;
+    color  : rgb(0, 18, 117);
+}
+
+input[type="submit"] {
+    background-color: rgb(0, 18, 117);
+    border          : 1px solid #eee;
+    color           : #fff;
+    font-weight     : bold;
+    outline         : none;
+    cursor          : pointer;
+    padding         : 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(48, 79, 253);
+}
+
+hr {
+    border-bottom: 1px solid rgb(0, 18, 117);
+    margin       : 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
