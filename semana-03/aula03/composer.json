@@ -1,0 +1,11 @@
+{
+    "name": "metalomega/composer-tutorial",
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app"
+        }
+    }
+}
