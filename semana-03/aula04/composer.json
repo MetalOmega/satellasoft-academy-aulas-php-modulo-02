@@ -1,0 +1,17 @@
+{
+    "name": "metalomega/aula04",
+    "authors": [
+        {
+            "name": "Metal Omega",
+            "email": "metalomega@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
